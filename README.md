@@ -1,8 +1,5 @@
 <h1 align="center">
 <br>
-  <img src="src/assets/images/logo-interna.svg" alt="GoBarber" width="90">
-<br>
-<br>
 GoBarber
 </h1>
 
