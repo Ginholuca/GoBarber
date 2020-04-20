@@ -32,7 +32,7 @@
         "class-methods-use-this": "off",
         "no-param-reassign": "off",
         "@typescript-eslint/camelcase": "off",
-        "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+        "no-unused-vars": ["error", { "argsIgnorePattern": "next"}],
         
         "import/extensions":[
             "error",
