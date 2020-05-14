@@ -12,16 +12,13 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository'
  * [x] Acesso ao repositório
  */
 
-interface RequestDTO {
+interface Request {
   provider_id: string
   date: Date
 }
 
 class CreateAppointmentServcie {
-  public async execute({
-    date,
-    provider_id,
-  }: RequestDTO): Promise<Appointment> {
+  public async execute({ date, provider_id }: Request): Promise<Appointment> {
     const appointmentsRepository = getCustomRepository(AppointmentsRepository)
 
     const appointmentDate = startOfHour(date)
@@ -34,12 +31,11 @@ class CreateAppointmentServcie {
       throw new AppError('This appointment is alredy booked.')
     }
 
-    const appointment = appointmentsRepository.create({
+    const appointment = await appointmentsRepository.create({
       provider_id,
       date: appointmentDate,
     })
 
-    await appointmentsRepository.save(appointment)
     return appointment
   }
 }
