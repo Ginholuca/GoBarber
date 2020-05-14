@@ -9,7 +9,6 @@ import ensureAuthenticated from '@modules/user/infra/http/middlewares/ensureAuth
 // DTO = transmitir dados de um arquivo para outro.
 
 const appointmentsRouter = Router()
-const appointmentsRepository = new AppointmentsRepository()
 
 appointmentsRouter.use(ensureAuthenticated)
 
@@ -24,6 +23,7 @@ appointmentsRouter.post('/', async (req, res) => {
 
   const parsedDate = parseISO(date)
 
+  const appointmentsRepository = new AppointmentsRepository()
   const createAppointment = new CreateAppointmentService(appointmentsRepository)
 
   const appointment = await createAppointment.execute({
