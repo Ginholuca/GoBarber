@@ -35,10 +35,8 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [Youch](https://www.npmjs.com/package/youch)
 -  [Yup](https://www.npmjs.com/package/yup)
 -  [Bee Queue](https://www.npmjs.com/package/bcrypt)
--  [Nodemailer](https://nodemailer.com/about/)
 -  [date-fns](https://date-fns.org/)
 -  [Sentry](https://sentry.io/)
--  [DotEnv](https://www.npmjs.com/package/dotenv)
 -  [VS Code][vc] with [ESLint][vceslint]
 
 ## :memo: License
