@@ -1,6 +1,3 @@
-import path from 'path'
-import fs from 'fs'
-import uploadConfig from '@config/upload'
 import { injectable, inject } from 'tsyringe'
 
 import IUsersRepository from '@modules/user/repositories/IUsersRepository'
