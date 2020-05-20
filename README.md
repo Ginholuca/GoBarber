@@ -43,7 +43,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 
 ---
 
-Made with ♥ by Giovanni De Luca :wave: [Get in touch!](https://www.linkedin.com/in/giovanni-de-luca-corr%C3%AAa-29508017b/)
+Made with ♥ by Giovanni De Luca :octocat: [Get in touch!](https://www.linkedin.com/in/giovanni-de-luca-corr%C3%AAa-29508017b/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
