@@ -21,10 +21,24 @@
 
 **RF**
 
-**RNF**
+- O user deve poder atualizar o seu nome, e-mail e senha.
 
 **RN**
+
+- O user não pode alterar seu e-mail para um e-mail já utilizado;
+- Para atualizar sua senha, o user deve informar a senha antiga;
+- Para atualizar sua senha, o user deve confirmar a senha antiga;
+
 
 # Painel do prestador
 
 # Agendamento de serviços
+
+**RF**
+
+- O user deve poder listar todos os prestadores de serviços cadastrados;
+- O user deve poder listar os dias de um mês com horário disponível
+
+**RNF**
+
+**RN**
