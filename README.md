@@ -1,4 +1,4 @@
-<h1 "align-itens= center" >
+<h1 align="center" >
     <br>
     GoBarber API
 </h1>
