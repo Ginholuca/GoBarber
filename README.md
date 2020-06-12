@@ -1,5 +1,4 @@
-<h1 align="center">
-    <img alt="GoBarber API" />
+<h1 align="center" >
     <br>
     GoBarber API
 </h1>
