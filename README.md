@@ -13,7 +13,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-## :rocket: Technologies
+## :rocket:  Technologies
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
@@ -38,7 +38,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [Sentry](https://sentry.io/)
 -  [VS Code][vc] with [ESLint][vceslint]
 
-## :memo: License
+## :memo:  License
 
 ---
 
