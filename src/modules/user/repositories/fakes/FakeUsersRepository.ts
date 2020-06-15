@@ -5,7 +5,7 @@ import IUsersRepository from '@modules/user/repositories/IUsersRepository'
 import User from '../../infra/typeorm/entities/User'
 import ICreateUserDTO from '@modules/user/dtos/ICreateUserDTO'
 
-class UsersRepository implements IUsersRepository {
+class FakeUsersRepository implements IUsersRepository {
   private users: User[] = []
 
   public async findById(id: string): Promise<User | undefined> {
@@ -38,7 +38,7 @@ class UsersRepository implements IUsersRepository {
     return user
   }
 }
-export default UsersRepository
+export default FakeUsersRepository
 
 // Retorno de uma function async sempre será uma proise.
 // Promise - promessa que vai executar alguma coisa.

@@ -6,12 +6,15 @@ import './providers'
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository'
 import AppointmentsRepository from '@modules/appointments/infra/typeorm/repositories/AppointmentsRepository'
 
-import IUserRepository from '@modules/user/repositories/IUsersRepository'
+import IUsersRepository from '@modules/user/repositories/IUsersRepository'
 import UserRepository from '@modules/user/infra/typeorm/repositories/UsersRepository'
+
+// import IUserTokensRepository from '@modules/user/repositories/IUserTokensRepository'
+// import UserTokenRepository from '@modules/user/infra/typeorm/repositories/UserTokensRepository'
 
 container.registerSingleton<IAppointmentsRepository>(
   'AppointmentsRepository',
   AppointmentsRepository,
 )
 
-container.registerSingleton<IUserRepository>('UserRepository', UserRepository)
+container.registerSingleton<IUsersRepository>('UserRepository', UserRepository)
