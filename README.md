@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  A barber scheduling app that allows users to schedule an appointment with his favorite barber and shows to the barber his agenda for the day.
+   A barber scheduling app that allows users to schedule an appointment with his favorite barber and shows to the barber his agenda for the day.
 </h4>
 <p align="center">
  
@@ -42,7 +42,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 
 ---
 
-Made with ♥ by Giovanni De Luca :octocat: [Get in touch!](https://www.linkedin.com/in/giovanni-de-luca-corr%C3%AAa-29508017b/)
+Made with ♥ by Ginholuca :octocat: [Get in touch!](https://www.linkedin.com/in/giovanni-de-luca-corr%C3%AAa-29508017b/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
