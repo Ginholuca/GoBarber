@@ -1,6 +1,6 @@
 <h1 align="center" >
     <br>
-    GoBarber API
+    GoBarber API :octocat:
 </h1>
 
 <h4 align="center">
